@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-L9bhWQBBv1yxkw1uV7MSic8oFpVYwLmU6+swU6xX9y0LCe/YJ+UdDfL6MTGH0ZM2hZ1rN3dB2d05rXweOyGO7g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <img src="images\banner.jpg" class="img-fluid" alt="">
+    </div>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #40513B;">
+      <div class="container-fluid">
+        <img src="images\final-logo.png" class="img-fluid"  alt="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav fs-5">
+            <li class="nav-item nav-link-primary">
+              <a class="nav-link" style="color: #EDF1D6;" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="adopt.html">Adopt</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: #EDF1D6;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pets
+              </a>
+              <ul class="dropdown-menu" style="background-color: #40513B;" id="dropdown" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="dog.html">Dogs</a></li>
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="cat.html">Cats</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="donate.html">Donate</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: #EDF1D6;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Merch
+              </a>
+              <ul class="dropdown-menu" style="background-color: #40513B;" id="dropdown" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="cat-d.html">Cat Designs</a></li>
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="dog-d.html">Dog Designs</a></li>
+              </ul>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #EDF1D6;" href="about.html">About Us</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="contact.html">Contact Us</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="faq.html">FAQ's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- end of navigation -->
+
+    <div class="container-fluid" style="background-color: #EDF1D6;">
+      <div class="container p-4">
+        <div class="container mb-3">
+        <img src="images\paw.png" style="height: 150px;" alt="pawfriend">
+        </div>
+        <div class="container">
+          <h2 class="fs-1">MAKE A DONATION</h2>
+        </div>
+          <p class="card-text fs-5">
+            PawFriend Foundation is a non-profit organization that is dedicated to rescuing and providing care for abandoned, abused, and neglected animals. 
+            As an animal lover, you may want to support our cause by making a donation to help us continue our vital work.
+            Making a donation to PawFriend Foundation is a simple and meaningful way to show your support. You can make a donation online through our 
+            website <a href="index.html">www.pawfriend.com</a>, or by mailing a check or money order to PawFriend shelter address <b>(#7008 Concepcion, Tarlac)</b>. When making a donation, you will have 
+            the option to specify the amount you would like to give, as well as whether you would like to make a one-time or recurring donation.
+            Your donation will help PawFriend Foundation provide food, shelter, medical care, and other necessities for animals in need. Every dollar you 
+            give will go directly to our programs, as the organization is run entirely by volunteers and has no administrative costs.
+            By making a donation to PawFriend Foundation, you will be making a difference in the lives of animals who have been abandoned or mistreated. Your 
+            contribution will help ensure that they receive the care and love they deserve, and that they have a second chance at a happy life. Thank you for 
+            considering a donation to PawFriend Foundation, and for your compassion and kindness towards animals.
+          </p>
+        </div>
+      </div>
+
+    <!-- donation form -->
+
+<div class="container-fluid my-1" style="background-color: #40513B;">
+  <div class="container-fluid text-white" style="padding: 50px 100px;">
+    <div class="row">
+      <div class="col-lg-7 col-md-12">
+        <form>
+          <h1>PawFriend Foundation</h1>
+          <div class="mb-3">
+            <label for="full-name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="full-name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" placeholder="sample@gmail.com" id="email" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="amount" class="form-label">Donation amount</label>
+          <div class="input-group">
+            <span class="input-group-text">₱</span>
+            <input type="number" class="form-control" id="amount" required>
+            <span class="input-group-text">.00</span>
+          </div>
+          </div>
+          <div class="mb-3">
+            <label for="credit-card" class="form-label">Credit card number</label>
+            <input type="text" class="form-control" id="credit-card" required>
+          </div>
+          <div class="mb-3">
+            <label for="expiry-date" class="form-label">Expiry date</label>
+            <input type="text" class="form-control" id="expiry-date" placeholder="MM / YY" required>
+          </div>
+          <div class="mb-3">
+            <label for="cvv" class="form-label">Card Verification Value</label>
+            <input type="text" class="form-control" id="cvv" required>
+          </div>
+            <button type="submit" class="btn btn-primary">Donate</button>
+        </form>
+      </div>
+
+      <!-- use for space only -->
+    <div class="col-lg-1 col-md-4 mt-2">
+    </div>
+
+          <!--  for paypal-->
+      
+    <div class="col-lg-4 col-md-12 mt-2">
+      <div class="row" style="margin-top: 170px;">
+       <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="container text-white fs-1 fw-bold text-center">
+            <p>Other ways to donate</p> 
+          </div>
+        <div class="col-lg-6 col-md-6 col-sm-6" style="margin-top: 10px;">
+          <div class="card" style="height: auto;">
+            <img src="images\gcash-logo.png" alt="Image" class="card-img-top">
+          <div class="card-body" style="text-align: center; font-size: x-large;">
+            <a href="#" class="btn btn-primary">
+
+                        <!--Gcash trigger Modal -->
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#gcashModal">
+              Donate
+            </button>
+                        
+                        <!-- Gcash Modal -->
+                        
+          <div class="modal fade" id="gcashModal" tabindex="-1" aria-labelledby="gcashModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal">
+              <div class="modal-content">
+                      <div class="modal-header" style="background-color: #C04A82;">
+                        <h5 class="modal-title text-white text-center" id="gcashModalLabel">Thank you for donations</h5>
+                      </div>
+                    <div class="modal-body">
+                        <img src="images\gcash-logo.png" alt="Placeholder Image" class="img-fluid mb-3">
+                      <h3 class="text-dark text-center">
+                        Gcash Number: 09483405599<br>
+                        Gcash Name:   Eugene Esperas<br>
+                        PawFriend foundation
+                      </h3>
+                    </div>
+                  <div class="modal-footer">
+                  <button class="adopt-button" onclick="window.location.href='donate.html';">
+                    close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>  
+          </a>
+        </div>
+      </div>
+    </div>
+
+          <!--  for paypal-->
+          
+                  <div class="col-lg-6 col-md-6 col-sm-6" style="margin-top: 10px;">
+                    <div class="card" style="height: auto;">
+                      <img src="images\paypal-logo.png" alt="Image" class="card-img-top">
+                      <div class="card-body" style="text-align: center; font-size: x-large;">
+                        <a href="#" class="btn btn-primary">
+      
+                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#paypalModal">
+                            Donate
+                          </button>
+                          
+                          <!-- paypal Modal -->
+                          
+                          <div class="modal fade" id="paypalModal" tabindex="-1" aria-labelledby="paypalModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal">
+                              <div class="modal-content">
+                                <div class="modal-header" style="background-color: #C04A82;">
+                                  <h5 class="modal-title text-white text-center" id="paypalModalLabel">Thank you for donations</h5>
+                                </div>
+                                <div class="modal-body">
+                                  <img src="images\paypal-logo.png" alt="Placeholder Image" class="img-fluid mb-3">
+                                  <h3 class="text-dark text-center">
+                                    Paypal Number: 09483405599<br>
+                                    Paypal Name:   Eugene Esperas<br>
+                                    PawFriend foundation
+                                  </h3>
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="adopt-button" onclick="window.location.href='donate.html';">
+                                    close
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>  
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- donation form -->
+
+    <!-- footer -->
+
+  <footer class="py-3" style="background-color: #40513B;">
+  <div class="container-fluid text-white text-center" style="margin: auto;">
+    <div class="row">
+      <div class="col-md-3 col-sm-12">
+        <h5 class="mb-3">PawFriend</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white">Home</a></li>
+          <li><a href="adopt.html" class="text-white">Adopt</a></li>
+          <li><a href="dog.html" class="text-white">Dogs</a></li>
+          <li><a href="cat.html" class="text-white">Cats</a></li>
+          <li><a href="donate.html" class="text-white">Donate</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-3 col-sm-12 mt-4">
+      <ul class="list-unstyled">
+        <li><a href="about.html" class="text-white">About Us</a></li>
+        <li><a href="cat-d.html" class="text-white">Cat Merchandise</a></li>
+        <li><a href="dog-d.html" class="text-white">Dog Merchandise</a></li>
+        <li><a href="faq.html" class="text-white">FAQ's</a></li>
+        <li><a href="login.html" class="text-white">Login</a></li>
+      </ul>
+    </div>
+
+      <div class="col-md-3 col-sm-12 mt-5">
+        <p class="mb-0">© 2023 PawFriend. All rights reserved.</p>
+        <p class="mb-0">Made with ❤️ by Eugene Esperas</p>
+      </div>
+      <div class="col-md-3 col-sm-12 mt-5">
+        <h5 class="mb-3">Follow Us</h5>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-facebook"></ion-icon></a></li>
+          <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-twitter"></ion-icon></a></li>
+          <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-instagram"></ion-icon></a></li>
+          <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-youtube"></ion-icon></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

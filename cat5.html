@@ -1,0 +1,1027 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-L9bhWQBBv1yxkw1uV7MSic8oFpVYwLmU6+swU6xX9y0LCe/YJ+UdDfL6MTGH0ZM2hZ1rN3dB2d05rXweOyGO7g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <img src="images\banner.jpg" class="img-fluid" alt="">
+    </div>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #40513B;">
+      <div class="container-fluid">
+        <img src="images\final-logo.png" class="img-fluid"  alt="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav fs-5">
+            <li class="nav-item nav-link-primary">
+              <a class="nav-link" style="color: #EDF1D6;" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="adopt.html">Adopt</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: #EDF1D6;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pets
+              </a>
+              <ul class="dropdown-menu" style="background-color: #40513B;" id="dropdown" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="dog.html">Dogs</a></li>
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="cat.html">Cats</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="donate.html">Donate</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: #EDF1D6;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Merch
+              </a>
+              <ul class="dropdown-menu" style="background-color: #40513B;" id="dropdown" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="cat-d.html">Cat Designs</a></li>
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="dog-d.html">Dog Designs</a></li>
+              </ul>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #EDF1D6;" href="about.html">About Us</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="contact.html">Contact Us</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="faq.html">FAQ's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+    <!-- banner -->
+    <div class="container">
+    <div class="banner-container my-2">
+      <img src="images\cb4.png" style="width: 1300px; height: 400px;" alt="Your Image" class="img-fluid">
+    </div>
+  </div>
+
+    <!-- end of banner -->
+
+    <div class="container-fluid bg-body-secondary">
+      <div class="container p-3">
+        <div class="row">
+          <div class="container fs-1 fw-bold my-5" style="text-align: center; color: #755bb4;">
+            <h1 class="fs-1 fw-bold">Choose your companion,</h1> 
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c13.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Lopo</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc13">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc13" tabindex="-1" aria-labelledby="Modalc13Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc13Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c13.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Lopo</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c14.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Marin</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc14">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc14" tabindex="-1" aria-labelledby="Modalc14Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc14Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c14.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Marin</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c15.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Oden</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc15">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc15" tabindex="-1" aria-labelledby="Modalc15Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc15Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c15.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Oden</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c16.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Molpy</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc16">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc16" tabindex="-1" aria-labelledby="Modalc16Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc16Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c16.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Molpy</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid bg-body-secondary">
+      <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c5.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Carl</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc5">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc5" tabindex="-1" aria-labelledby="Modalc5Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc5Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c5.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Carl</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c6.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Koko</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc6">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc6" tabindex="-1" aria-labelledby="Modalc6Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc6Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c6.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Koko</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c7.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Rusty</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc7">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc7" tabindex="-1" aria-labelledby="Modalc7Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc7Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c7.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Rusty</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c8.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Alto</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc8">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc8" tabindex="-1" aria-labelledby="Modalc8Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc8Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c8.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Alto</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-body-secondary">
+      <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c9.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Poarche</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc9">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc9" tabindex="-1" aria-labelledby="Modalc9Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc9Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c9.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Poarche</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c10.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Zaki</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc10">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc10" tabindex="-1" aria-labelledby="Modalc10Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc10Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c10.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Zaki</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c11.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Guffy</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc11">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc11" tabindex="-1" aria-labelledby="Modalc11Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc11Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c11.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Guffy</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c12.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Mayo</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc12">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc12" tabindex="-1" aria-labelledby="Modalc12Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc12Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c12.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Mayo</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-body-secondary">
+      <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c1.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Mike</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                     <!-- Button for learn more trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc1">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc1" tabindex="-1" aria-labelledby="Modalc1Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc1Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c1.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Mike</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c2.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Justine</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc2">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc2" tabindex="-1" aria-labelledby="Modalc2Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc2Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c2.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Justine</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c3.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Clark</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc3">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc3" tabindex="-1" aria-labelledby="Modalc3Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc1Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c3.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Clark</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+              <div class="card" style="height: auto;">
+                <img src="cats\c4.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Cleo</h5>
+                  <p class="card-text">1 year old cat</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc4">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc4" tabindex="-1" aria-labelledby="Modalc4Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc4Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c4.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Cleo</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid py-1 bg-secondary">
+      <div class="container mt-3">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="cat.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="cat2.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="cat3.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="cat4.html">4</a></li>
+            <li class="page-item"><a class="page-link" id="active-page" href="cat5.html">5</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- body content -->
+
+  <div class="container-fluid">
+    <div class="container p-5">
+  <div class="row">
+    <div class="col-lg-6 col-md-12" id="image-info">
+      <img src="cats\euge.jpg" alt="Your Image" class="img-fluid">
+    </div>
+    <div class="col-lg-6 col-md-12">
+      <h2 id="p-text-title">Adoption Success story</h2>
+      <p class="card-text" id="p-text2">
+        "I have fond memories of my childhood, when my father compassionately cared for numerous stray cats and dogs, even nursing those in dire condition back to health. This nurturing behavior left a lasting impression on me. Subsequently, these feral animals began awaiting our presence every morning. It's clear that my love for animals is an inheritance from my father. Skipping ahead to 2011, I encountered Puma, a distressed cat, in a sorry state on the streets. Without a moment's hesitation, I brought her into our home, provided her with necessary medical attention, and thankfully, she made a full recovery. Puma's eyes are truly distinctive – one is a striking blue, while the other boasts a warm yellowish-brown hue. In 2016, when Puma turned five, she gave birth to three endearing kittens. Remarkably, one of them inherited her captivating heterochromatic eyes, quickly becoming the favorite within our family. This kitten, whom I affectionately named Oreo, has remained by my side ever since. Oreo has now reached the age of six and is currently expecting her own litter. While some may consider cats with such unique eyes to be valuable, I could never put a price on Oreo. The immense happiness and joy she has brought to my family make her an invaluable part of our lives – my eternal fur baby."
+      </p>
+    </div>
+  </div>
+  </div>
+</div>
+
+  
+<!--  footer -->
+
+  <footer class="py-3" style="background-color: #40513B;">
+  <div class="container-fluid text-white text-center" style="margin: auto;">
+    <div class="row">
+      <div class="col-md-3 col-sm-12">
+        <h5 class="mb-3">PawFriend</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white">Home</a></li>
+          <li><a href="adopt.html" class="text-white">Adopt</a></li>
+          <li><a href="dog.html" class="text-white">Dogs</a></li>
+          <li><a href="cat.html" class="text-white">Cats</a></li>
+          <li><a href="donate.html" class="text-white">Donate</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-3 col-sm-12 mt-4">
+      <ul class="list-unstyled">
+        <li><a href="about.html" class="text-white">About Us</a></li>
+        <li><a href="cat-d.html" class="text-white">Cat Merchandise</a></li>
+        <li><a href="dog-d.html" class="text-white">Dog Merchandise</a></li>
+        <li><a href="faq.html" class="text-white">FAQ's</a></li>
+        <li><a href="login.html" class="text-white">Login</a></li>
+      </ul>
+    </div>
+
+      <div class="col-md-3 col-sm-12 mt-5">
+        <p class="mb-0">© 2023 PawFriend. All rights reserved.</p>
+        <p class="mb-0">Made with ❤️ by Eugene Esperas</p>
+      </div>
+      <div class="col-md-3 col-sm-12 mt-5">
+        <h5 class="mb-3">Follow Us</h5>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-facebook"></ion-icon></a></li>
+          <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-twitter"></ion-icon></a></li>
+          <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-instagram"></ion-icon></a></li>
+          <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-youtube"></ion-icon></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  let minusButton = document.getElementById("minus-btn");
+  let plusButton = document.getElementById("plus-btn");
+  let quantityInput = document.getElementById("quantity-input");
+
+  minusButton.addEventListener("click", () => {
+    if (quantityInput.value > 1) {
+      quantityInput.value--;
+    }
+  });
+
+  plusButton.addEventListener("click", () => {
+    quantityInput.value++;
+  });
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-L9bhWQBBv1yxkw1uV7MSic8oFpVYwLmU6+swU6xX9y0LCe/YJ+UdDfL6MTGH0ZM2hZ1rN3dB2d05rXweOyGO7g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <img src="images\banner.jpg" class="img-fluid" alt="">
+    </div>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #40513B;">
+      <div class="container">
+        <img src="images\final-logo.png" class="img-fluid"  alt="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav fs-5">
+            <li class="nav-item nav-link-primary">
+              <a class="nav-link" style="color: #EDF1D6;" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="adopt.html">Adopt</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: #EDF1D6;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pets
+              </a>
+              <ul class="dropdown-menu" style="background-color: #40513B;" id="dropdown" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="dog.html">Dogs</a></li>
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="cat.html">Cats</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="donate.html">Donate</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: #EDF1D6;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Merch
+              </a>
+              <ul class="dropdown-menu" style="background-color: #40513B;" id="dropdown" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="cat-d.html">Cat Designs</a></li>
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="dog-d.html">Dog Designs</a></li>
+              </ul>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #EDF1D6;" href="about.html">About Us</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="contact.html">Contact Us</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="faq.html">FAQ's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="#">
+                
+                
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thirdModal">
+                  login
+                </button>
+                
+                <!-- Modal 3 -->
+
+                <div class="modal fade" id="thirdModal" tabindex="-1" aria-labelledby="thirdModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-xl">
+             
+                <div class="col-lg-6 col-md-8">
+                  <div class="card text-white" style="background-color: #755bb4;">
+                    <div class="card-body">
+                      <h3 class="text-center mb-4">Login</h3>
+                      <form>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        </div>
+                        <div class="mb-3">
+                          <label for="password" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="rememberMe">
+                          <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <div class="d-grid gap-2">
+                          <button type="submit" class="btn btn-primary btn-lg fw-bold" style="background-color: #c0a7fc;">Login</button>
+                        </div>
+                        <hr>
+                        <p class="text-center">Don't have an account?
+                          <a href="#" class="text-white fw-bold" data-bs-toggle="modal" data-bs-target="#signupModal">Sign up</a>
+                        </p>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+              </a>
+            </div>
+          </div>
+        </div>  
+
+
+        <!-- Sign Up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content text-white" style="background-color: #755bb4;">
+          <div class="modal-header">
+            <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter full name">
+              </div>
+              <div class="mb-3">
+                <label for="signup-email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="signup-email" placeholder="Enter email">
+              </div>
+              <div class="mb-3">
+                <label for="signup-password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="signup-password" placeholder="Password">
+              </div>
+              <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary btn-lg fw-bold" style="background-color: #c0a7fc;">Sign Up</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+<div class="container-fluid bg-body-secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="cats/c11.png" class="card-img-top" alt="your-image-alt-text">
+            <div class="card-body">
+              <h5 class="card-title">Card with Longer Text</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada nulla vitae tortor tincidunt, nec laoreet lacus lobortis. Proin nec justo at lorem sodales viverra. Suspendisse lacinia, metus a aliquet semper, metus purus ullamcorper nunc, at euismod mauris nibh vel enim. Sed interdum sapien quis lobortis laoreet. Nullam eu mauris et metus tristique iaculis a in arcu. Fusce nec pharetra quam, eget imperdiet tortor.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="dog/d11.jpg" class="card-img-top" alt="your-image-alt-text">
+            <div class="card-body">
+              <h5 class="card-title">Card with Shorter Text</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada nulla vitae tortor tincidunt, nec laoreet lacus lobortis. Proin nec justo at lorem sodales viverra.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+<div class="container"></div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">mama Dropdown</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            mama Item 1
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">anak Item 1</a></li>
+            <li><a class="dropdown-item" href="#">anak Item 2</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                mama Item 2
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink m-5 p-5">
+                <li><a class="dropdown-item" href="#">ampon Item 1</a></li>
+                <li><a class="dropdown-item" href="#">ampon Item 2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Button for learn more trigger modal
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  More details
+</button>
+
+<!-- Modal 1 dog-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pet Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="dog\d5.png" alt="Pet Image" class="img-fluid">
+          </div>
+          <div class="col-md-8">
+            <h4>Bruno</h4>
+            <p>Age: 1 year old</p>
+            <p>Breed: Portmanteau</p>
+            <p>Gender: Male</p>
+            <p>Location: PawFriend, Tarlac City</p>
+            <p>
+              Playful and gentle with kids and other animals
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Adopt</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+     <!--footer-->
+  
+  
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

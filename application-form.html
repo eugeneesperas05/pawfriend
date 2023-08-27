@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-L9bhWQBBv1yxkw1uV7MSic8oFpVYwLmU6+swU6xX9y0LCe/YJ+UdDfL6MTGH0ZM2hZ1rN3dB2d05rXweOyGO7g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <img src="images\banner.jpg" class="img-fluid" alt="">
+    </div>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #40513B;">
+      <div class="container-fluid">
+        <img src="images\final-logo.png" class="img-fluid"  alt="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav fs-5">
+            <li class="nav-item nav-link-primary">
+              <a class="nav-link" style="color: #EDF1D6;" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="adopt.html">Adopt</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: #EDF1D6;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pets
+              </a>
+              <ul class="dropdown-menu" style="background-color: #40513B;" id="dropdown" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="dog.html">Dogs</a></li>
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="cat.html">Cats</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="donate.html">Donate</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: #EDF1D6;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Merch
+              </a>
+              <ul class="dropdown-menu" style="background-color: #40513B;" id="dropdown" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="cat-d.html">Cat Designs</a></li>
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="dog-d.html">Dog Designs</a></li>
+              </ul>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #EDF1D6;" href="about.html">About Us</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="contact.html">Contact Us</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="faq.html">FAQ's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--end of navigation-->
+
+    <div class="container-fluid bg-body-secondary py-5">
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+          <img src="images\ty.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 col-md-4 col-sm-4 col-4" style="margin-top: 150px;">
+        <h1 class="text-center">ADOPTION FORM</h1>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 col-4">
+          <img src="images\hi-dog2.png" class="img-fluid" alt="">
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-12">
+
+            <div class="container">
+              <form action="submit-form.php" method="post">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6 my-3">
+                  <input type="text" class="form-control" placeholder="First Name" id="firstname" name="name" required>
+                  </div>
+
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6 my-3">
+                  <input type="text" class="form-control" placeholder="Last Name" id="lastname" name="name" required>
+                  </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                  <input type="text" class="form-control" placeholder="Address" id="address" name="name" required>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 my-3">
+                      <input type="number"  class="form-control" placeholder="Phone" id="phone" name="phone" required>
+                    </div>
+  
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 my-3">
+                    <input type="text" class="form-control" placeholder="Email" id="email" name="email" required>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <label for="email" class="form-label">Birth Date:</label>
+                    <input type="text" class="form-control" placeholder="MM/DD/YY" id="bdate" name="bdate" required>
+                    </div>
+  
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="row">
+                      <label for="status" class="form-label">Status:</label>
+                    <div class="row mt-2">
+                      <div class="col-lg-4 col-md-4 col-sm-5 col-5">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          <p class="status-p">Single</p>
+                        </label>
+                        </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-5 col-5">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                            <label class="form-check-label" for="exampleRadios2">
+                              <p class="status-p">Married</p>
+                            </label>
+                            </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-5 col-5">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+                                <label class="form-check-label" for="exampleRadios3">
+                                  <p class="status-p">Others</p>
+                                </label>
+                              </div>
+                            </div>    
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6 my-2">
+                    <label for="email" class="form-label my-auto">Occupation</label>
+                    <p class="form-p">Please type N/A if unemployed</p>
+                  <input type="text" class="form-control" id="firstname" name="name" required>
+                  </div>
+
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6 my-2">
+                    <label for="email" class="form-label my-auto">Social Media</label>
+                    <p class="form-p">Please type N/A if no social media</p>
+                  <input type="text" class="form-control" id="lastname" name="name" required>
+                  </div>
+                </div>
+
+                <div class="row">
+                <center>
+                    <label for="where" class="form-label">Where did you learn about PawFriend?</label>
+                  </center>
+                  <div class="container">
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-1 col-2">
+                    <!-- col for spacing only-->
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div class="form-check">
+                      <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Friends
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                      <label class="form-check-label" for="flexCheckChecked">
+                        Socials
+                      </label>
+                    </div>
+                    </div>
+                    
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+                      <!-- col for spacing only-->
+                      </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Website
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Others
+                        </label>
+                      </div>
+                      </div>
+                  </div>
+                </div>
+                </div>
+                <hr>
+
+                <div class="row mt-4">
+                <h3>Questionaire</h3>
+                <p class="form-p">
+                  In an effort to help the process go smoothly, please be as detailed as possible with your responses to the questions below.
+                </p>
+              </div>
+
+                <p>What pet are you looking for?</p>
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                      <p class="status-p">Cat</p>
+                    </label>
+                    </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                        <label class="form-check-label" for="exampleRadios2">
+                          <p class="status-p">Dog</p>
+                        </label>
+                        </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                            <label class="form-check-label" for="exampleRadios2">
+                              <p class="status-p">Both</p>
+                            </label>
+                            </div>
+                            </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+                            <label class="form-check-label" for="exampleRadios3">
+                              <p class="status-p">Undecided</p>
+                            </label>
+                          </div>
+                        </div>    
+                    </div>
+                </div>
+                <hr>
+
+                <div class="container">
+                <p>Are you applying to adopt a specific pet?</p>
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                      <p class="status-p">Yes</p>
+                    </label>
+                    </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                        <label class="form-check-label" for="exampleRadios2">
+                          <p class="status-p">No</p>
+                        </label>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <p>Describe your ideal pet, including its sex, age, appearance, temperament, etc.</p>
+                    <textarea class="form-controltext-black" placeholder="Type your answer here" id="message" style="height: 100px; width: 100%;"></textarea>
+                  </div>
+                    <hr>
+
+                    <div class="container">
+                    <div class="row">
+                      <p>What type of building do you live in?</p>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                          <label class="form-check-label" for="exampleRadios1">
+                          House
+                          </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                            Condo
+                          </label>
+                          </div>
+                          </div>
+
+                          <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                              <label class="form-check-label" for="exampleRadios1">
+                              Apartment
+                              </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                Other
+                              </label>
+                              </div>
+                              </div>
+                      </div>
+                    </div>
+                    <hr>
+
+                    <div class="container">
+                    <div class="row">
+                      <p>Who do you live with?</p>
+                      <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="form-check">
+                          <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Living alone
+                          </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Children over 18
+                          </label>
+                          </div>
+                          </div>
+
+                          <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="form-check">
+                              <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                              <label class="form-check-label" for="flexCheckDefault">
+                                Children below 18
+                              </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Spouse
+                              </label>
+                              </div>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-4">
+                                <div class="form-check">
+                                  <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                  <label class="form-check-label" for="flexCheckDefault">
+                                    Parents
+                                  </label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input " type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Relatives
+                                  </label>
+                                  </div>
+                                  </div>
+                      </div>
+                    </div>
+                    <hr>
+
+                    <div class="container">
+                      <div class="row">
+                        <p>Are any members of your household allergic to animals?</p>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              <p class="status-p">Yes</p>
+                            </label>
+                            </div>
+                            </div>
+        
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                                <label class="form-check-label" for="exampleRadios2">
+                                  <p class="status-p">No</p>
+                                </label>
+                           </div>
+                           </div>
+                      </div>
+                    </div>
+                      <hr>
+
+                      <div class="container">
+                      <div class="row">
+                        <p>Who will be responsible for feeding, grooming, and generally caring for your pet?</p>
+                        <textarea class="form-controltext-black" placeholder="Type your answer here" id="message" style="height: 80px; width: 100%;"></textarea>
+                      </div>
+                    </div>
+                      <hr>
+
+                      <div class="container">
+                      <div class="row">
+                        <p>Who will be financially responsible for your pet’s needs (i.e. food, vet bills, etc.)?</p>
+                        <textarea class="form-controltext-black" placeholder="Type your answer here" id="message" style="height: 80px; width: 100%;"></textarea>
+                      </div>
+                    </div>
+                      <hr>
+
+                      <div class="container">
+                      <div class="row">
+                        <p>Who will look after your pet if you go on vacation or in case of emergency?</p>
+                        <textarea class="form-controltext-black" placeholder="Type your answer here" id="message" style="height: 80px; width: 100%;"></textarea>
+                      </div>
+                    </div>
+                      <hr>
+
+                      <div class="container">
+                      <div class="row">
+                        <p>How many hours in an average workday will your pet be left alone?</p>
+                        <textarea class="form-controltext-black" placeholder="Type your answer here" id="message" style="height: 80px; width: 100%;"></textarea>
+                      </div>
+                    </div>
+                      <hr>
+
+                      <div class="container">
+                      <div class="row">
+                        <p>What steps will you take to introduce your new pet to his/her new surroundings?</p>
+                        <textarea class="form-controltext-black" placeholder="Type your answer here" id="message" style="height: 80px; width: 100%;"></textarea>
+                      </div>
+                    </div>
+                      <hr>
+
+                      <div class="container">
+                      <div class="row">
+                        <p>Does everyone in the family support your decision to adopt a pet?</p>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              <p class="status-p">Yes</p>
+                            </label>
+                            </div>
+                            </div>
+        
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                                <label class="form-check-label" for="exampleRadios2">
+                                  <p class="status-p">No</p>
+                                </label>
+                           </div>
+                           </div>
+                        <textarea class="form-controltext-black" placeholder="Please explain here" id="message" style="height: 80px; width: 100%;"></textarea>
+                      </div>
+                    </div>
+                      <hr>
+                      
+                      <div class="container">
+                      <div class="row">
+                        <p>Do you have other pets?</p>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              <p class="status-p">Yes</p>
+                            </label>
+                            </div>
+                            </div>
+        
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                                <label class="form-check-label" for="exampleRadios2">
+                                  <p class="status-p">No</p>
+                                </label>
+                           </div>
+                           </div>
+                          </div>
+                        </div>
+                      <hr>
+
+                      <div class="container">
+                      <div class="row">
+                        <p>Have you had pets in the past?</p>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              <p class="status-p">Yes</p>
+                            </label>
+                            </div>
+                            </div>
+        
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                                <label class="form-check-label" for="exampleRadios2">
+                                  <p class="status-p">No</p>
+                                </label>
+                           </div>
+                           </div>
+                          </div>
+                      </div>
+                      <hr>
+
+                      <div class="container">
+                      <div class="row">
+                        <p>Please attach photos of your home. This has replaced our on-site ocular inspections.</p>
+                        <ol>
+                          <li>Front of the house</li>
+                          <li>Street photo</li>
+                          <li>Living room</li>
+                          <li>Dining area</li>
+                          <li>Kitchen</li>
+                          <li>Bedroom/s (if you pet will have access)</li>
+                          <li>Windows (if adopting a cat)</li>
+                          <li>Front & backyard (if adopting a dog)</li>
+                        </ol>
+                      </div>
+                    </div>
+
+                      <p>We value your privacy. Your photos will not be used for purposes other than this adoption application.</p>
+                      <div class="dropzone bg-light p-5 text-center">
+                        <span class="dropzone-text c0a7fc">Drag a file</span>
+                        <input type="file" class="dropzone-input" multiple>
+                      </div>
+                      <p class="status-p "><i>max. file size 256mb</i></p>
+
+                </div>
+              </form>
+           </div>
+         </div>
+       </div>
+      </div>
+    </div>
+
+    <!--my footer-->
+
+  <footer class="py-3" style="background-color: #40513B;">
+      <div class="container-fluid text-white text-center" style="margin: auto;">
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <h5 class="mb-3">PawFriend</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-white">Home</a></li>
+              <li><a href="adopt.html" class="text-white">Adopt</a></li>
+              <li><a href="dog.html" class="text-white">Dogs</a></li>
+              <li><a href="cat.html" class="text-white">Cats</a></li>
+              <li><a href="donate.html" class="text-white">Donate</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-3 col-sm-12 mt-4">
+          <ul class="list-unstyled">
+            <li><a href="about.html" class="text-white">About Us</a></li>
+            <li><a href="cat-d.html" class="text-white">Cat Merchandise</a></li>
+            <li><a href="dog-d.html" class="text-white">Dog Merchandise</a></li>
+            <li><a href="faq.html" class="text-white">FAQ's</a></li>
+            <li><a href="login.html" class="text-white">Login</a></li>
+          </ul>
+        </div>
+  
+          <div class="col-md-3 col-sm-12 mt-5">
+            <p class="mb-0">© 2023 PawFriend. All rights reserved.</p>
+            <p class="mb-0">Made with ❤️ by Eugene Esperas</p>
+          </div>
+          <div class="col-md-3 col-sm-12 mt-5">
+            <h5 class="mb-3">Follow Us</h5>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-facebook"></ion-icon></a></li>
+              <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-twitter"></ion-icon></a></li>
+              <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-instagram"></ion-icon></a></li>
+              <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-youtube"></ion-icon></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+  </html>

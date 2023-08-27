@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* for my navigation */
+
+
+.navbar-nav .nav-link:hover {
+  background-color: #9DC08B;
+  color: #0d6efd;
+  transition: background-color 0.5s ease-out;
+  border-radius: 9px;
+}
+
+.navbar-nav .nav-link:hover a{
+  color: black;
+}
+
+#dropdown a:hover{
+  background-color: #9DC08B;
+  transition: background-color 0.5s ease-out;
+  border-radius: 9px;
+}
+
+
+/* for my image with info */
+
+#image-info img {
+  border: 1px solid black;
+}
+
+#image-info img {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* for my image or card */
+
+.card {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* for adopt.html   adopt button */
+
+
+.adopt-button {
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #0d6efd;
+  background-color: #0d6efd;
+}
+
+/* for Merchandise img and active page */
+
+#active-page {
+  background-color: #755bb4;
+  color: white;
+}
+
+#img-border {
+  border: 1px solid black;
+
+}
+
+/*   home p styles */
+
+#p-text-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  color: #40513B;
+  margin-top: 20px;
+  margin-left: 20px;
+  
+}
+
+#p-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  margin-left: 20px;
+  color: black;
+  margin-top: 20px;
+}
+
+#p-text2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+/*  for all my card images hover effects */
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card .card-img-top{
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  border: 5px solid #755bb4;
+}
+
+.card .card-img-top:hover {
+  transform: scale(1.2);
+}
+
+/*  for all my modal body images (to removed hover effects) */
+
+.card #myLogin {  
+  transform: scale(0);
+  transition: transform 0 ease;
+}
+
+/*  for my p in forms */
+
+.form-p {
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+.status-p {
+  font-size: 0.9em;
+}
+
+.card-login {
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.dropzone {
+  border: 1px solid black;
+}

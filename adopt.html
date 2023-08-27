@@ -1,0 +1,744 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-L9bhWQBBv1yxkw1uV7MSic8oFpVYwLmU6+swU6xX9y0LCe/YJ+UdDfL6MTGH0ZM2hZ1rN3dB2d05rXweOyGO7g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <img src="images\banner.jpg" class="img-fluid" alt="">
+    </div>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #40513B;">
+      <div class="container-fluid">
+        <img src="images\final-logo.png" class="img-fluid"  alt="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav fs-5">
+            <li class="nav-item nav-link-primary">
+              <a class="nav-link" style="color: #EDF1D6;" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="adopt.html">Adopt</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: #EDF1D6;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pets
+              </a>
+              <ul class="dropdown-menu" style="background-color: #40513B;" id="dropdown" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="dog.html">Dogs</a></li>
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="cat.html">Cats</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="donate.html">Donate</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" style="color: #EDF1D6;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Merch
+              </a>
+              <ul class="dropdown-menu" style="background-color: #40513B;" id="dropdown" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="cat-d.html">Cat Designs</a></li>
+                <li><a class="dropdown-item" style="color: #EDF1D6;" href="dog-d.html">Dog Designs</a></li>
+              </ul>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #EDF1D6;" href="about.html">About Us</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="contact.html">Contact Us</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="faq.html">FAQ's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #EDF1D6;" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--end of navigation 
+
+     <!- body content -->
+
+     <!-- 4 key factors to consider -->
+
+    <div class="container-fluid p-5">
+      <div class="container-fluid">
+        <h1 class="text-center fw-bold" style="color: #755bb4;">Four Key Factors to Consider Before Adopting a Pet</h1>
+        <hr style="height: 18px;">  
+        <div class="row mt-2">
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+              <div class="card">
+                <div class="card-header text-white text-center" style="background-color: #755bb4;">
+                  <h5 class="card-title">Time commitment: </h5>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Pets require time and attention, and the amount of time required 
+                    varies depending on the type of pet you choose. Dogs, for example, require regular 
+                    exercise and socialization, while cats are more independent but still require daily 
+                    attention. Make sure you have the time and necessary care for your new pet.</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Modal trigger 1 -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#firstModal1">
+                      Read more..
+                    </button>
+                    
+                    <!-- Modal 1 -->
+                    
+                    <div class="modal fade" id="firstModal1" tabindex="-1" aria-labelledby="firstModalLabel1" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white text-start fs-3" id="firstModalLabel1">Time commitment:</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="dog\pet-lover.jpg" style="height: 300px;" alt="Placeholder Image" class="img-fluid mb-3">
+                            <h6 class="text-dark text-start fs-6">
+                              Adopting a cat or a dog requires different levels of time and attention. Here are some general 
+                              statements to consider:
+                              Adopting a Cat:
+                              Cats are generally more independent than dogs and require less direct attention.
+                              Daily care includes feeding, cleaning the litter box, and providing playtime and attention.
+                              Some cats may require regular grooming.
+                              Depending on the cat's personality, they may enjoy spending time with their owner or prefer to be left alone.
+                              Generally, adopting a cat requires less time commitment than adopting a dog.
+                              Adopting a Dog:
+                              Dogs require daily exercise, socialization, and training.
+                              Depending on the breed and energy level, they may need one or more walks per day, as well as playtime and 
+                              training sessions. In addition to physical exercise, dogs also require mental stimulation and social interaction 
+                              with their owners. Training and socialization are important for a dog's well-being and should be ongoing.
+                              Adopting a dog requires a significant time commitment, as they need more attention and care than cats.
+                            </h6>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="adopt-button" onclick="window.location.href='dog.html';">
+                              Adopt?
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- end of Modal 1 -->
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+              <div class="card">
+                <div class="card-header text-white text-center" style="background-color: #755bb4;">
+                  <h5 class="card-title">Finacial commitment: </h5>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Adopting a pet can be a rewarding experience, but it also requires a significant financial commitment. In addition to the 
+                    initial adoption fees, you'll need to budget for ongoing expenses such as food, toys, vet bills, and other necessities. Make sure you can afford to care for a pet before adopting one.</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Modal trigger 2 -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#secondModal">
+                      Read more..
+                    </button>
+                    
+                    <!-- Modal 2 -->
+                    
+                    <div class="modal fade" id="secondModal" tabindex="-1" aria-labelledby="secondModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white text-start" id="secondModalLabel">Finacial commitment:</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="cats\cat-lover.png" style="height: 300px;" alt="Placeholder Image" class="img-fluid mb-3">
+                            <h6 class="text-dark text-start fs-6">
+                              When adopting a pet, it is important to consider the financial commitments that come with it. Adopting a pet is not just about providing a home for a furry companion, but also about providing for the pet's needs to ensure that they are healthy and happy.
+                              Some of the financial commitments that come with pet adoption include the initial adoption fee, which can vary depending on the shelter or rescue organization. In addition, there are ongoing costs such as food, toys, bedding, and medical expenses. This can include regular check-ups, vaccinations, and emergency care in case of accidents or illnesses.
+                              Pet owners also need to consider the cost of pet insurance or setting aside money for unexpected expenses. It is important to have a budget in place for these expenses and to ensure that you can afford to provide for your pet throughout their life.
+                              Ultimately, adopting a pet is a rewarding experience that requires a financial commitment. However, the love and companionship that a pet can provide is priceless and well worth the investment.
+                            </h6>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="adopt-button" onclick="window.location.href='dog.html';">
+                              Adopt?
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!--end of modal 2 -->
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+              <div class="card">
+                <div class="card-header text-white text-center" style="background-color: #755bb4;">
+                  <h5 class="card-title">Family and Other Pets: </h5>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    If you have a family or other pets, it's important to consider how they will interact with a new pet. Will your current 
+                    pets get along with a new one? Do any family members have allergies or other issues that could be affected by having a pet? 
+                    Make sure everyone is on board with adopting a pet.</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Modal trigger 3-->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#thirdModal">
+                      Read more..
+                    </button>
+                    
+                    <!-- Modal 3 -->
+                    
+                    <div class="modal fade" id="thirdModal" tabindex="-1" aria-labelledby="thirdModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white text-start" id="thirdModalLabel">Family and Other Pets:</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images\fam-dog.jpg" style="height: 300px;" alt="Placeholder Image" class="img-fluid mb-3">
+                            <h6 class="text-dark text-start">
+                              When adopting a pet, it is important to consider the family and other pets in the household as well. Adopting a pet can be a big change for everyone involved, and it is important to ensure that the new addition is a good fit for the family and any other pets.
+                              It is important to consider the personality and energy level of the pet, as well as their size and breed. Some pets may be better suited for families with young children, while others may do better in households with older or more laid-back individuals. It is also important to consider any allergies or sensitivities in the family to ensure that everyone can live comfortably with the new pet.
+                              If there are other pets in the household, it is important to consider their personalities and whether they will get along with the new pet. Some pets may be more territorial or aggressive towards other animals, while others may be more accepting and friendly.
+                              Before adopting a pet, it is a good idea to talk to the shelter or rescue organization about the pet's personality and behavior, as well as any history of living with other pets or children. It may also be helpful to introduce the new pet to the family and any other pets before finalizing the adoption to ensure that everyone is comfortable with the new addition.
+                              By considering the family and other pets when adopting a pet, it can help ensure a smooth transition and a happy home for everyone involved.
+                            </h6>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="adopt-button" onclick="window.location.href='dog.html';">
+                              Adopt?
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <!--end of modal 3 -->
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+              <div class="card">
+                <div class="card-header text-white text-center" style="background-color: #755bb4;">
+                  <h5 class="card-title">Lifestyle situation: </h5>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Before adopting a pet, it's important to consider your lifestyle and living situation. Do you have enough time and 
+                    energy to care for a pet? Do you live in a pet-friendly building or have enough space for a pet? Consider if your daily 
+                    routine and living situation can accommodate a pet</p>
+                  <a href="#" class="btn btn-primary">
+                    <!-- Modal trigger 4 -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fourthModal">
+                      Read more..
+                    </button>
+                    
+                    <!-- Modal 4 -->
+                    
+                    <div class="modal fade" id="fourthModal" tabindex="-1" aria-labelledby="fourthModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white text-start" id="fourthModalLabel">Lifestyle and living situation:</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images\dog-life.jpg"  style="height: 300px;" alt="Placeholder Image" class="img-fluid mb-3">
+                            <h6 class="text-dark text-start">
+                              When adopting a pet, it is essential to take into account your lifestyle and living situation. Several factors should be considered, including the amount of time you can dedicate to the pet, the space available in your home, and any specific needs of the pet. For instance, dogs require more time and attention than cats, so they may not be the best fit for someone with a busy schedule. Additionally, some pets, such as birds or reptiles, may require specialized habitats, which can be difficult to accommodate in certain living situations. Ultimately, taking the time to consider your lifestyle and living situation before adopting a pet can help ensure a happy and healthy relationship between you and your new furry or feathered companion.
+                            </h6>
+                          </div>
+                          <div class="modal-footer">
+                            <button class="adopt-button" onclick="window.location.href='dog.html';">
+                              Adopt?
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            </div>
+             <!--end of modal 4-->
+      </div>
+    </div>
+
+    <!--  end of Tips and tricks -->
+
+    <!-- for Dogs section-->
+
+    <div class="container-fluid bg-body-secondary">
+      <div class="container p-3">
+        <div class="row">
+          <div class="container text-center fs-1 fw-bold" style="color: #755bb4;">
+            <p>Playful and Lovable Dogs are Waiting For You</p> 
+            </div>
+            <div class="col-lg-3 col-md-6 my-4">
+              <div class="card" style="height: auto;">
+                <img src="dog\d5.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Bruno</h5>
+                  <p class="card-text">1 year old portmanteau</p>
+                  <a href="#" class="btn btn-primary">
+                     <!-- Button for learn more trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal1">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 dog-->
+                    <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modal1Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="dog\d5.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Bruno</h4>
+                                <p>Age: 1 year old</p>
+                                <p>Breed: Portmanteau</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Playful and gentle with kids and other animals
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-lg-3 col-md-6 my-4">
+              <div class="card" style="height: auto;">
+                <img src="dog\d13.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Choo choo</h5>
+                  <p class="card-text">1 year old portmanteau</p>
+                  <a href="#" class="btn btn-primary">
+                     <!-- Button for learn more trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal2">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 dog-->
+                    <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modal2Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="dog\d13.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Choo choo</h4>
+                                <p>Age: 1 year old</p>
+                                <p>Breed: Portmanteau</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Playful and gentle with kids and other animals
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 my-4">
+              <div class="card" style="height: auto;">
+                <img src="dog\d3.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <h5 class="card-title">Damian</h5>
+                  <p class="card-text">1 year old portmanteau</p>
+                  <a href="#" class="btn btn-primary">
+                     <!-- Button for learn more trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal3">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 dog-->
+                    <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modal3Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="dog\d3.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Damian</h4>
+                                <p>Age: 1 year old</p>
+                                <p>Breed: Portmanteau</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Playful and gentle with kids and other animals
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-1 mt-4">
+              <div class="card" style="height: auto;">
+                <img src="images\all.png" alt="Image" class="card-img-top">
+                <div class="card-body" style="text-align: center; font-size: x-large;">
+                  <p class="card-text">Dogs and Cats</p>
+                  <a href="dog.html" class="btn btn-primary">See them all</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
+    
+    <!-- for cats section-->
+
+
+      <div class="container-fluid">
+        <div class="container p-3">
+          <div class="row">
+            <div class="container text-info fs-1 fw-bold" style="text-align: center;">
+              <h1 class="fs-1 fw-bold" style="color: #755bb4;">Cute and Adorable Cats are Looking for you</h1> 
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+                <div class="card" style="height: auto;">
+                  <img src="cats\c5.png" alt="Image" class="card-img-top">
+                  <div class="card-body" style="text-align: center; font-size: x-large;">
+                    <h5 class="card-title">Carl</h5>
+                    <p class="card-text">1 year old cat</p>
+                    <a href="#" class="btn btn-primary">
+                      <!-- Button for learn more trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc5">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc5" tabindex="-1" aria-labelledby="Modalc5Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc5Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c5.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Carl</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Male</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+                <div class="card" style="height: auto;">
+                  <img src="cats\c9.png" alt="Image" class="card-img-top">
+                  <div class="card-body" style="text-align: center; font-size: x-large;">
+                    <h5 class="card-title">Poarche</h5>
+                    <p class="card-text">1 year old cat</p>
+                    <a href="#" class="btn btn-primary">
+                      <!-- Button for learn more trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc9">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc9" tabindex="-1" aria-labelledby="Modalc9Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc9Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c9.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Poarche</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Female</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-lg-3 col-md-6 mb-4" style="margin-top: 10px;">
+                <div class="card" style="height: auto;">
+                  <img src="cats\c8.png" alt="Image" class="card-img-top">
+                  <div class="card-body" style="text-align: center; font-size: x-large;">
+                    <h5 class="card-title">Alto</h5>
+                    <p class="card-text">1 year oldcat</p>
+                    <a href="#" class="btn btn-primary">
+                      <!-- Button for learn more trigger modal -->
+                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modalc8">
+                      More details
+                    </button>
+
+                    <!-- Modal 1 -->
+                    <div class="modal fade" id="Modalc8" tabindex="-1" aria-labelledby="Modalc8Label" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                          <div class="modal-header" style="background-color: #755bb4;">
+                            <h5 class="modal-title text-white" id="Modalc8Label">Pet Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row">
+                              <div class="col-md-7">
+                                <img src="cats\c8.png" alt="Pet Image" class="img-fluid">
+                              </div>
+                              <div class="col-md-5 text-dark text-start">
+                                <h4>Alto</h4>
+                                <p>Age: 1 year old cat</p>
+                                <p>Breed: Puspin</p>
+                                <p>Gender: Female</p>
+                                <p>Location: PawFriend, Tarlac City</p>
+                                <p>
+                                  Cute, adorable and sweet animal
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="adopt-button" onclick="window.location.href='application-form.html';">
+                              Adopt
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-lg-3 col-md-6 mb-1" style="margin-top: 10px;">
+                <div class="card" style="height: auto;">
+                  <img src="images\looking.png" alt="Image" class="card-img-top">
+                  <div class="card-body" style="text-align: center; font-size: x-large;">
+                    <p class="card-text">Loving Cats</p>
+                    <a href="cat.html" class="btn btn-primary">See them all</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="container-fluid bg-body-secondary py-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-5 col-sm-12 col-12">
+          <img src="images\anti-rabies.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 col-md-7 col-sm-12 col-12">
+          <h2 class="my-3">Protect Your Furry Friend: Why Anti-Rabies Vaccination is a Must-Have for Your Pet?</h2>
+          <p class="lead">&nbsp &nbsp &nbsp &nbsp
+            Anti-rabies vaccination is necessary for pets because it helps protect them from the deadly rabies virus. Rabies is a viral disease that affects the nervous system of mammals, including humans and animals. It can be transmitted through the saliva of infected animals, usually through a bite.
+            Rabies is a serious and potentially fatal disease, 
+          </p>
+          <a href="#" class="btn btn-primary">
+            <!-- Modal trigger 3-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rabiesdModal">
+              Read more..
+            </button>
+            
+            <!-- Modal 3 -->
+            
+            <div class="modal fade" id="rabiesdModal" tabindex="-1" aria-labelledby="rabiesdModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header" style="background-color: #755bb4;">
+                    <h5 class="modal-title text-white text-start" id="rabiesdModalLabel">Why Anti-Rabies Vaccination is a Must-Have for Your Pet?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images\anti-rabies.png" style="height: 300px;" alt="Placeholder Image" class="img-fluid mb-3">
+                    <h6 class="text-dark text-start">
+                      Anti-rabies vaccination is necessary for pets because it helps protect them from the deadly rabies virus. Rabies is a viral disease that affects the nervous system of mammals, including humans and animals. It can be transmitted through the saliva of infected animals, usually through a bite.
+                      Rabies is a serious and potentially fatal disease, and there is no cure once an animal is infected. Vaccinating your pet against rabies is the best way to protect them from the disease, and also helps to prevent the spread of the disease to other animals and humans.
+                      In many countries, including the United States, rabies vaccination is required by law for all pets. Vaccination schedules may vary depending on the pet's age and the type of vaccine used, but it is generally recommended to vaccinate pets against rabies every 1-3 years. 
+                    </h6>
+                  </div>
+                  <div class="modal-footer">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+        </div>
+      </div>
+          
+        <div class="container-fluid py-4" style="background-color: #fef7f7;">
+          <div class="container">
+          <img src="images\dog-cat.png" class="img-fluid" alt="">
+          <h2 class="my-3">Why Gifting a Pet from a Shelter is the Practical Choice?</h2>
+          <p class="lead">&nbsp &nbsp &nbsp &nbsp
+            Anti-rabies vaccination is necessary for pets because it helps protect them from the deadly rabies virus. Rabies is a viral disease that affects the nervous system of mammals, including humans and animals. It can be transmitted through the saliva of infected animals, usually through a bite.
+            Rabies is a serious and potentially fatal disease
+          </p>
+        </div>
+      </div>
+
+
+    <!--end of body content -->
+
+    <!--my footer-->
+
+     <footer class="py-3" style="background-color: #40513B;">
+      <div class="container-fluid text-white text-center" style="margin: auto;">
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <h5 class="mb-3">PawFriend</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="text-white">Home</a></li>
+              <li><a href="adopt.html" class="text-white">Adopt</a></li>
+              <li><a href="dog.html" class="text-white">Dogs</a></li>
+              <li><a href="cat.html" class="text-white">Cats</a></li>
+              <li><a href="donate.html" class="text-white">Donate</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-3 col-sm-12 mt-4">
+          <ul class="list-unstyled">
+            <li><a href="about.html" class="text-white">About Us</a></li>
+            <li><a href="cat-d.html" class="text-white">Cat Merchandise</a></li>
+            <li><a href="dog-d.html" class="text-white">Dog Merchandise</a></li>
+            <li><a href="faq.html" class="text-white">FAQ's</a></li>
+            <li><a href="login.html" class="text-white">Login</a></li>
+          </ul>
+        </div>
+  
+          <div class="col-md-3 col-sm-12 mt-5">
+            <p class="mb-0">© 2023 PawFriend. All rights reserved.</p>
+            <p class="mb-0">Made with ❤️ by Eugene Esperas</p>
+          </div>
+          <div class="col-md-3 col-sm-12 mt-5">
+            <h5 class="mb-3">Follow Us</h5>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-facebook"></ion-icon></a></li>
+              <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-twitter"></ion-icon></a></li>
+              <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-instagram"></ion-icon></a></li>
+              <li class="list-inline-item"><a href="#"><ion-icon style="font-size: 24px;" name="logo-youtube"></ion-icon></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+  </html>
